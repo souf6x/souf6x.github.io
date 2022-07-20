@@ -5,7 +5,6 @@ on:
 
 name: 'Trigger: Push action'
 
-
 jobs:
   shellcheck:
     name: Shellcheck
