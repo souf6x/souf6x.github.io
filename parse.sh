@@ -1,3 +1,9 @@
 #!/usr/bin/env bash
 
-proselint *.md
+a=$(ls -r | grep .md)
+
+if [ -z "$a" ]; then
+	exit
+else
+	proselint $a
+fi
