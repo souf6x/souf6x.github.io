@@ -1,5 +1,11 @@
-name:
-on: [push]
+on:
+  push:
+    branches:
+      - master
+
+name: 'Trigger: Push action'
+
+
 jobs:
 	shellcheck:
 		name: Shellcheck
